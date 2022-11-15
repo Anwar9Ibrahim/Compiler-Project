@@ -1,0 +1,90 @@
+start
+pusha main
+call
+main:
+pushs "dafaasd"
+storel 0
+pushl 0
+pushl 0
+pusha write__string
+call
+pop 1
+pusha readKey
+call
+stop
+
+
+
+
+
+
+
+
+
+write__int:
+pushl -1
+storel 0
+pushl 0
+pushl 0
+writei
+return
+
+
+
+write__double:
+pushl -1
+storel 0
+pushl 0
+pushl 0
+writef
+return
+
+
+
+write__string:
+pushl -1
+storel 0
+pushl 0
+pushl 0
+writes
+return
+
+
+
+write__boolean:
+pushl -1
+storel 0
+pushl 0
+pushl 0
+writei
+return
+
+
+
+readInt:
+read
+atoi
+storeg 999
+return
+
+
+
+readReal:
+read
+atof
+storeg 999
+return
+
+
+
+readString:
+read
+storeg 999
+return
+
+
+
+readKey:
+read
+pop 1
+return

@@ -1,0 +1,13 @@
+Class: MY_1_class
+
+|       |Function: main
+|       |      |return type : Void
+|       |      |Instructions: 
+|       |      |      |Identifier = Expression: 
+|       |      |      |      |Identifier: s Type: string
+|       |      |      |      |String Expression: Value: "dafaasd"
+|       |      |      |Identifier_Expression_list:
+|       |      |      |      |Identifier_name: write.
+|       |      |      |      | Identifier (Expression) : 
+|       |      |      |      |      |Identifier_name: s.
+|       |      |      |Identifier_Expression_list:

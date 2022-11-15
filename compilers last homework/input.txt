@@ -1,0 +1,9 @@
+Class MY_1_class 
+{
+	
+	void main() { 
+		string s = "dafaasd";
+		write(s);
+		readKey();
+	}
+}
